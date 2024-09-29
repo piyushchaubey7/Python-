@@ -1,0 +1,11 @@
+import os 
+print("list of content of root directory")
+print(os.listdir("/"))
+print("\n list of content of current directory")
+print(os.listdir("."))
+print("\n list of content of current directory")
+print(os.listdir(os.getcwd()))
+print("\n list of content of current directory")
+print(os.listdir())
+print("\n list of content of specific directory")
+print(os.listdir("subfolder"))

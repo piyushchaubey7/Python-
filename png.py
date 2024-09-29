@@ -1,0 +1,5 @@
+f1=open("png10.png","rb")
+f1=open("b.png","wb")
+bytes=f1.read()
+f2.write(bytes)
+print("new image is created with name b.png")
